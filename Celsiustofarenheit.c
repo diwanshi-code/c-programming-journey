@@ -6,7 +6,7 @@ int main() {
     printf("Enter the temp in celsius: ");
     scanf("%f", &C);
   
-    F=(9/5)*C+32;
+    F=((9.0/5.0)*C)+32;
     
     printf("The value of temp in farenheit is %f",F);
     
